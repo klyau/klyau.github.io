@@ -1,0 +1,58 @@
+h1 {
+  color: yellow;
+}
+
+h2 {
+  color: white;
+}
+
+p {
+    font-family: "Arial", Times, serif;
+}
+
+li {
+  color:white;
+}
+
+body {
+  background-image: url("https://i.pinimg.com/736x/95/17/37/95173766a548557b034587f5b0b8bb63--wallpaper-iphone-winter-pinapple-wallpaper-iphone.jpg");
+  font-size: 40px;
+}
+
+.container {
+  margin: 20px;
+  padding: 20px;
+}
+
+.small-container {
+  min-height: 50vh;
+  padding-top: 30vh;
+  text-align: center;
+  list-style-position: inside;
+}
+
+#navbar {
+  position: fixed;
+  width: 90vw;
+}
+
+#navbar .nav-links {
+  text-decoration: none;
+  color: red;
+  margin: 10px;
+}
+
+#navbar .nav-links:hover {
+  color: skyblue;
+}
+
+#contact input, textarea {
+  padding: 20px;
+  margin: 15px auto;
+  font-size: 18px;
+  border: none;
+}
+
+#contact input[type="submit"] {
+  background-color: #FFC169;
+}
